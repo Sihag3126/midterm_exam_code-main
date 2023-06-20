@@ -1,0 +1,67 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+/* google font link */
+
+/*Three types of selectors */
+/* Element Selector */
+h1,h2,h3{
+    color: red; /* color red */
+    font-family:'Times New Roman', Times, serif; /* Google Fonts web font */
+    text-align: center;/*align all the h1 h2 h3 in the centre*/
+  }
+
+  h1{
+    font-size: xx-large;/*font size is large*/
+  }
+  
+  /* Class Selector */
+  .highlight {
+    background-color: lightgray; /* Example of class selector */
+    text-align: center;
+  }
+  
+  /* ID Selector */
+  #mainheading {
+    font-weight: bold; /* Example of ID selector */
+  }
+  
+  p, table {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px; 
+  }
+  
+  div.wrapper {
+    width: 80vw; /* 80% of the viewport width */
+    margin: 0 auto; /* Center the div horizontally */
+    background-color: lightcyan;/*background color light cyan */
+  }
+  
+  article {
+    padding: 2em 3em 0; /* 2ems top, 3ems left and right */
+  }
+  
+  img {
+    max-width: 100%; /* Ensure the image does not exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 3em 0 3em 3em; /* 3ems top, bottom, and left */
+    position: sticky;
+    bottom: 0;
+  }
+
+  table th, table td {
+    padding: 0.5em; /* Cell padding */
+    border: 1px solid #ccc; /* Cell borders */
+    text-align: center;
+  }
+  
+  table {
+    border-collapse: collapse; /* Merge table borders */
+    width: 100%; /* Table width */
+  }
+  
+ 
+  
